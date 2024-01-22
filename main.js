@@ -170,7 +170,7 @@ function create_ui({ state }) {
   })
 
   ui.gui = new guify({
-    title: `<span>${TITLE}(<a style="color: inherit" href="https://github.com/adorsk/scrambler/" target="_blank">ABOUT</a>) <a style="color: inherit" href="https://forms.gle/sPG8z2z9oY3dgSr86" target="_blank">(Guestbook)</a></span>`,
+    title: `<span>${TITLE}(<a style="color: inherit" href="https://github.com/adorsk/jiggler/" target="_blank">ABOUT</a>) <a style="color: inherit" href="https://forms.gle/sPG8z2z9oY3dgSr86" target="_blank">(Guestbook)</a></span>`,
     open: true,
   })
   for (const param_def of PARAM_DEFS) {
